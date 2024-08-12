@@ -41,7 +41,7 @@ const routes: Routes = [
   { path: 'choix-de-parcours/premiere-techno', component : ChoixPremiereTechnoComponent},
   { path: 'statistiques/ProfilAdmisFilieres', component: ProfilAdmisFilieresComponent },
   { path: 'statistiques/ProfilAdmisSpes', component: ProfilAdmisSpesComponent },
-  { path: 'statistiques/ChancesAdmissionNiveauComponent', component: ChancesAdmissionNiveauComponent },
+  { path: 'statistiques/ChancesAdmissionNiveau', component: ChancesAdmissionNiveauComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 @NgModule({
