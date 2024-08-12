@@ -6,11 +6,9 @@ import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
 import {RouterModule, Routes} from "@angular/router";
 import {CentreDinteretComponent} from "./centre-dinteret/centre-dinteret.component";
-import {ChoixDeParcoursComponent} from "./choix-de-parcours/choix-de-parcours.component";
 import {DomainesDeFormationComponent} from "./domaines-de-formation/domaines-de-formation.component";
 import {HomeComponent} from "./home/home.component";
 import {SimulateurDeParcoursComponent} from "./simulateur-de-parcours/simulateur-de-parcours.component";
-import {StatistiquesComponent} from "./statistiques/statistiques.component";
 import {TrouverSaFormationComponent} from "./trouver-sa-formation/trouver-sa-formation.component";
 import {TrouverSonMetierComponent} from "./trouver-son-metier/trouver-son-metier.component";
 import {UserViewComponent} from "./user-view/user-view.component";
@@ -29,8 +27,6 @@ const routes: Routes = [
   { path: 'centre-dinteret', component : CentreDinteretComponent},
   { path: 'trouver-sa-formation', component: TrouverSaFormationComponent},
   { path: 'simulateur-de-parcours', component: SimulateurDeParcoursComponent},
-  { path: 'choix-de-parcours', component: ChoixDeParcoursComponent},
-  { path: 'statistiques', component : StatistiquesComponent},
   { path: 'domaines-de-formation', component: DomainesDeFormationComponent},
   { path: 'trouver-son-metier', component: TrouverSonMetierComponent},
   { path: 'mon-profil', component : UserViewComponent},
@@ -48,11 +44,12 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     CentreDinteretComponent,
-    ChoixDeParcoursComponent,
+    ChoixSecondeComponent,
+    ChoixPremiereGeneraleComponent,
+    ChoixPremiereTechnoComponent,
     DomainesDeFormationComponent,
     HomeComponent,
     SimulateurDeParcoursComponent,
-    StatistiquesComponent,
     TrouverSaFormationComponent,
     TrouverSonMetierComponent,
     UserViewComponent,
