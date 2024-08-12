@@ -17,6 +17,9 @@ import {UserViewComponent} from "./user-view/user-view.component";
 import {LoginComponent} from "./login/login.component";
 import {RegisterComponent} from "./register/register.component";
 import {httpInterceptorProviders} from "./auth/auth-interceptor";
+import {ChoixTerminaleComponent} from "./choix-terminale/choix-terminale.component";
+import {ChoixPremiereComponent} from "./choix-premiere/choix-premiere.component";
+import {ChoixSecondeComponent} from "./choix-seconde/choix-seconde.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -30,6 +33,9 @@ const routes: Routes = [
   { path: 'mon-profil', component : UserViewComponent},
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: RegisterComponent },
+  { path: 'choix-de-parcours/seconde', component: ChoixSecondeComponent},
+  { path: 'choix-de-parcours/premiere', component: ChoixPremiereComponent},
+  { path: 'choix-de-parcours/terminale', component : ChoixTerminaleComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 @NgModule({
