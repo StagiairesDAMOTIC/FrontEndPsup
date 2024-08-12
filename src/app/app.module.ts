@@ -20,6 +20,9 @@ import {httpInterceptorProviders} from "./auth/auth-interceptor";
 import {ChoixPremiereTechnoComponent} from "./choix-premiere-techno/choix-premiere-techno.component";
 import {ChoixPremiereGeneraleComponent} from "./choix-premiere-generale/choix-premiere-generale.component";
 import {ChoixSecondeComponent} from "./choix-seconde/choix-seconde.component";
+import {ProfilAdmisFilieresComponent} from "./profil-admis-filieres/profil-admis-filieres.component";
+import {ProfilAdmisSpesComponent} from "./profil-admis-spes/profil-admis-spes.component";
+import {ChancesAdmissionNiveauComponent} from "./chances-admission-niveau/chances-admission-niveau.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -36,6 +39,9 @@ const routes: Routes = [
   { path: 'choix-de-parcours/seconde', component: ChoixSecondeComponent},
   { path: 'choix-de-parcours/premiere-generale', component: ChoixPremiereGeneraleComponent},
   { path: 'choix-de-parcours/premiere-techno', component : ChoixPremiereTechnoComponent},
+  { path: 'statistiques/ProfilAdmisFilieres', component: ProfilAdmisFilieresComponent },
+  { path: 'statistiques/ProfilAdmisSpes', component: ProfilAdmisSpesComponent },
+  { path: 'statistiques/ChancesAdmissionNiveauComponent', component: ChancesAdmissionNiveauComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 @NgModule({
@@ -52,6 +58,9 @@ const routes: Routes = [
     UserViewComponent,
     LoginComponent,
     RegisterComponent,
+    ProfilAdmisFilieresComponent,
+    ProfilAdmisSpesComponent,
+    ChancesAdmissionNiveauComponent,
   ],
   imports: [
     BrowserModule,
