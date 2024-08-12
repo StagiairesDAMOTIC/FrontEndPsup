@@ -1,0 +1,50 @@
+<div class="page-header">
+  <div class="container">
+    <div class="navLinks">
+      <a [routerLink]="['/home']">Home</a>
+      <br />
+      <a  [routerLink]="['/trouver-sa-formation']">Trouver sa formation</a>
+      <br />
+      <a  [routerLink]="['/simulateur-de-parcours']">Simulateur de Parcours</a>
+      <br />
+      <a  [routerLink]="['/choix-de-parcours']">Choix de Parcours</a>
+      <br />
+      <a  [routerLink]="['/centre-dinteret']">Centre d'intéret</a>
+      <br />
+      <a  [routerLink]="['/statistiques']">Statistique</a>
+      <br />
+      <a  [routerLink]="['/domaines-de-formation']">Domaine de formation</a>
+      <br />
+      <a  [routerLink]="['/trouver-son-metier']">Trouver son métier</a>
+      <br />
+      <a  [routerLink]="['/mon-profil']">Mon Profil</a>
+      <br />
+      <a [routerLink]="['auth/login']">Log In/Out</a>
+      <br />
+      <a [routerLink]="['/signup']">Sign Up</a>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav" routerLinkActive="active">
+      <!--<li class="nav-item"><a class="nav-link" routerLink="home">Home</a></li>
+      <li *ngIf="authority === 'user'" class="nav-item">
+        <a class="nav-link" routerLink="user">User Page</a>
+      </li>
+      <li *ngIf="authority === 'admin'" class="nav-item">
+        <a class="nav-link" routerLink="admin">Admin Page</a>
+      </li>
+      <li *ngIf="!authority" class="nav-item">
+        <a class="nav-link" routerLink="auth/login">Login</a>
+      </li>-->
+    </ul>
+  </div>
+</nav>
+
+<div id="content">
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
