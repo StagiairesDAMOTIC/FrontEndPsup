@@ -21,6 +21,7 @@ import {ChoixSecondeComponent} from "./choix-seconde/choix-seconde.component";
 import {ProfilAdmisFilieresComponent} from "./profil-admis-filieres/profil-admis-filieres.component";
 import {ProfilAdmisSpesComponent} from "./profil-admis-spes/profil-admis-spes.component";
 import {ChancesAdmissionNiveauComponent} from "./chances-admission-niveau/chances-admission-niveau.component";
+import {InfoEleveComponent} from "./info-eleve/info-eleve.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -43,6 +44,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
+    InfoEleveComponent,
     CentreDinteretComponent,
     ChoixSecondeComponent,
     ChoixPremiereGeneraleComponent,
