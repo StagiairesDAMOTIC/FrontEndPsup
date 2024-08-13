@@ -69,16 +69,19 @@ body {
 }
 
 .save-button {
-  grid-column: span 2;
+  grid-column: span 2; /* Conserve l'extension sur 2 colonnes */
   background: #dc2242;
   color: white;
   font-size: 16px;
   font-weight: 600;
-  padding: 10px;
+  padding: 10px 20px; /* Ajuste la taille du padding pour un bouton plus petit */
   border: none;
   cursor: pointer;
   text-align: center;
+  width: auto; /* Laisse le bouton prendre la largeur selon le contenu */
+  justify-self: end; /* Aligne le bouton à droite de sa grille */
 }
+
 
 .main-content {
   display: flex;
