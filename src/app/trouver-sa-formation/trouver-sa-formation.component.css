@@ -68,6 +68,7 @@
   background: #132f49;
   padding: 20px;
   border-radius: 5px;
+  display:none;
 }
 
 .search-header {
