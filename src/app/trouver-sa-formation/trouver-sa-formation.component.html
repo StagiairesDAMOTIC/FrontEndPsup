@@ -2,15 +2,14 @@
   <div class="header">Trouver sa formation</div>
 
   <div class="content">
-    <div class="app-info-eleve" ></div>
+    <div class="app-info-eleve"></div>
     <div class="search-header">
-      <button class="search-header-item active" onclick="openTab(0)" >Par nom</button>
-      <button class="search-header-item" onclick="openTab(1)">Par métier</button>
+      <button class="search-header-item" [class.active]="activeTab === 0" (click)="openTab(0)">Par nom</button>
+      <button class="search-header-item" [class.active]="activeTab === 1" (click)="openTab(1)">Par métier</button>
     </div>
 
     <div class="search-section">
-
-      <div class="search-form">
+      <div class="search-form" *ngIf="activeTab === 0">
         <div class="search-input">
           <span>Nom de formation, d’établissement...</span>
           <div class="input-field"></div>
@@ -24,7 +23,7 @@
           <div>I.U.T de Saint Dié</div>
         </div>
       </div>
-      <div class="search-form">
+      <div class="search-form" *ngIf="activeTab === 1">
         <div class="search-input">
           <span>Nom de formation, d’établissement...</span>
           <div class="input-field"></div>
@@ -38,9 +37,6 @@
           <div>I.U.T de Saint Dié</div>
         </div>
       </div>
-
-
     </div>
   </div>
-
 </div>

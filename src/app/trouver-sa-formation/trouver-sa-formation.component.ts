@@ -6,9 +6,38 @@ import { Component } from '@angular/core';
   styleUrl: './trouver-sa-formation.component.css'
 })
 export class TrouverSaFormationComponent {
+  activeTab: number = 0; // Onglet par défaut, affichera le premier onglet
 
+  openTab(tabIndex: number): void {
+    this.activeTab = tabIndex;
+  }
 }
 // TypeScript Code
+function openTab(x: number): void {
+  // Sélectionne tous les éléments avec la classe "search-form"
+  const contents = document.querySelectorAll<HTMLElement>(".search-form");
+
+  // Parcourt tous les éléments et les cache
+  contents.forEach((content, index) => {
+    content.style.display = index === x ? "block" : "none";
+  });
+
+  // Gestion de l'état actif des onglets
+  const buttons = document.querySelectorAll<HTMLButtonElement>(".search-header-item");
+  buttons.forEach((button, index) => {
+    if (index === x) {
+      button.classList.add("active");
+    } else {
+      button.classList.remove("active");
+    }
+  });
+}
+
+// Initialisation au chargement de la page
+document.addEventListener("DOMContentLoaded", () => {
+  openTab(0); // Affiche le premier onglet au chargement
+});
+
 
 // Sélectionner les éléments nécessaires
 const tabItems = document.querySelectorAll<HTMLDivElement>('.search-header-item');
