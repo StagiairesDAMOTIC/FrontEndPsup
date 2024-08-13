@@ -16,7 +16,7 @@ body {
 
 .header {
   width: 100%;
-  background: #132f49;
+  background: var(--bleu-damotic);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@ body {
 .profile-section {
   width: 100%;
   max-width: 1015px;
-  background: #132f49;
+  background: var(--bleu-damotic);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -70,7 +70,7 @@ body {
 
 .save-button {
   grid-column: span 2; /* Conserve l'extension sur 2 colonnes */
-  background: #dc2242;
+  background: var(--rouge-damotic);
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -91,7 +91,7 @@ body {
 
 .favorites-section, .establishments-section {
   flex: 1;
-  background: #132f49;
+  background: var(--bleu-damotic);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -119,7 +119,7 @@ body {
 }
 
 .remove-button {
-  background: #dc2242;
+  background: var(--rouge-damotic);
   color: white;
   font-size: 14px;
   font-weight: 600;
