@@ -68,6 +68,7 @@
   background: var(--bleu-damotic);
   padding: 20px;
   border-radius: 5px;
+  display:none;
 }
 
 .search-header {

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: white;
   margin: 0;
   padding: 0;
@@ -11,11 +11,18 @@ body {
   padding: 20px;
 }
 
-header {
-  background-color: var(--bleu-damotic);
+.header {
+  width: 300px;
+  height: 50px;
+  background: var(--bleu-damotic);
   color: white;
-  padding: 10px;
-  text-align: center;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .form-section {
@@ -66,7 +73,8 @@ header {
   margin-top: 40px;
 }
 
-.result-header, .result-row {
+.result-header,
+.result-row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   padding: 10px;

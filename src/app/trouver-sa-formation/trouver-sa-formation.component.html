@@ -3,11 +3,26 @@
 
   <div class="content">
     <div class="app-info-eleve" ></div>
+    <div class="search-header">
+      <button class="search-header-item active" onclick="openTab(0)" >Par nom</button>
+      <button class="search-header-item" onclick="openTab(1)">Par métier</button>
+    </div>
 
     <div class="search-section">
-      <div class="search-header">
-        <div class="search-header-item active">Par nom</div>
-        <div class="search-header-item">Par métier</div>
+
+      <div class="search-form">
+        <div class="search-input">
+          <span>Nom de formation, d’établissement...</span>
+          <div class="input-field"></div>
+        </div>
+        <div class="search-input">
+          <span>Zone géographique</span>
+          <div class="input-field"></div>
+        </div>
+        <div class="search-button">Rechercher</div>
+        <div class="search-result">
+          <div>I.U.T de Saint Dié</div>
+        </div>
       </div>
       <div class="search-form">
         <div class="search-input">
@@ -19,10 +34,12 @@
           <div class="input-field"></div>
         </div>
         <div class="search-button">Rechercher</div>
+        <div class="search-result">
+          <div>I.U.T de Saint Dié</div>
+        </div>
       </div>
-      <div class="search-result">
-        <div>I.U.T de Saint Dié</div>
-      </div>
+
+
     </div>
   </div>
 
