@@ -10,7 +10,7 @@
 .header {
   width: 100%;
   height: 50px;
-  background: #132f49;
+  background: var(--bleu-damotic);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,7 +70,7 @@
 
 .sidebar {
   width: 300px;
-  background: #132f49;
+  background: var(--bleu-damotic);
   padding: 20px;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .filters-header {
-  color: #dc2242;
+  color: var(--rouge-damotic);
   font-size: 20px;
   font-family: Inter, sans-serif;
   font-weight: 600;
@@ -107,7 +107,7 @@
 }
 
 .filter-bar {
-  background: #dc2242;
+  background: var(--rouge-damotic);
   height: 24.23px;
   margin-bottom: 10px;
 }
@@ -122,7 +122,7 @@
 .button {
   width: 118.62px;
   height: 76.98px;
-  background: #dc2242;
+  background: var(--rouge-damotic);
   color: white;
   font-size: 14px;
   font-family: Inter, sans-serif;
