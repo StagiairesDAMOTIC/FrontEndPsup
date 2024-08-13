@@ -1,0 +1,146 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: #132f49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  color: white;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+}
+
+/* Content */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+}
+
+.sidebar {
+  width: 412px;
+  background: #132f49;
+  padding: 20px;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+.sidebar-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filters-section {
+  background: #132f49;
+  padding: 20px;
+}
+
+.filters-header {
+  color: #dc2242;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-bars {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.filter-bar {
+  background: #dc2242;
+  height: 26px;
+  margin-bottom: 10px;
+}
+
+.main-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-section {
+  background: #132f49;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.input-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.label {
+  flex: 1;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input {
+  flex: 2;
+  background: white;
+  padding: 5px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.results-section {
+  background: #132f49;
+  padding: 20px;
+  color: white;
+}
+
+.results-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.result-item {
+  background: #d9d9d9;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.result-bar {
+  width: 100%;
+}
+
+.result-type, .result-access, .result-average {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
