@@ -93,3 +93,8 @@ body {
 .result-row div {
   text-align: center;
 }
+.autourh1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
