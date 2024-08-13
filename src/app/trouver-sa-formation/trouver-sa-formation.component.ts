@@ -67,3 +67,5 @@ if (tabItems && searchSection && searchForm && searchResult) {
     });
   });
 }
+
+
