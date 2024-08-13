@@ -1,11 +1,11 @@
 .page-header {
-  background-color: #333;
+  background-color: var(--bleu-damotic);
   color: #fff;
   padding: 20px;
   margin: 0px;
 }
 
-.container {
+.container-header {
   max-width: 960px;
   margin: 0 auto;
 }
