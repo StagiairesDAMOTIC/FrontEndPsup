@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: white;
+}
+
+.content-wrapper {
+  width: 1268px;
+  height: 710px;
+  left: 80px;
+  top: 266px;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #132f49;
+}
+
+.main-image {
+  width: 869px;
+  height: 540px;
+  left: 208px;
+  top: 76px;
+}
