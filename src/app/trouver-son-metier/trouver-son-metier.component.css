@@ -10,7 +10,7 @@
 .header {
   width: 300px;
   height: 50px;
-  background: #132f49;
+  background: var(--bleu-damotic);
   color: white;
   font-size: 20px;
   font-family: Inter, sans-serif;
@@ -29,7 +29,7 @@
 
 .left-panel {
   width: 509px;
-  background: #132f49;
+  background: var(--bleu-damotic);
   color: white;
   display: flex;
   flex-direction: column;

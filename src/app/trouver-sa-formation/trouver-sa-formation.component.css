@@ -10,7 +10,7 @@
 .header {
   width: 300px;
   height: 50px;
-  background: #132f49;
+  background: var(--bleu-damotic);
   color: white;
   font-size: 20px;
   font-family: Inter, sans-serif;
@@ -30,7 +30,7 @@
 }
 
 .form-section {
-  background: #132f49;
+  background: var(--bleu-damotic);
   padding: 20px;
   border-radius: 5px;
 }
@@ -65,7 +65,7 @@
 }
 
 .search-section {
-  background: #132f49;
+  background: var(--bleu-damotic);
   padding: 20px;
   border-radius: 5px;
 }
@@ -109,7 +109,7 @@
 }
 
 .search-button {
-  background: #dc2242;
+  background: var(--rouge-damotic);
   color: white;
   padding: 10px 20px;
   font-weight: 600;
@@ -126,7 +126,7 @@
 }
 
 .save-button {
-  background: #dc2242;
+  background: var(--rouge-damotic);
   color: white;
   text-align: center;
   padding: 10px 20px;

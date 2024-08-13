@@ -40,7 +40,7 @@ input {
 button {
   display: block;
   width: 100%;
-  background-color: #A80000;
+  background-color: var(--rouge-damotic);
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-  background-color: #A80000;
+  background-color: var(--rouge-damotic);
 }
 
 .alert {
@@ -58,7 +58,7 @@ button:hover {
   padding: 10px;
   background-color: #f8d7da;
   border: 1px solid #f5c6cb;
-  color: #721c24;
+  color: var(--rouge-damotic);
   border-radius: 4px;
 }
 
@@ -70,7 +70,7 @@ body, html {
 
 /* Ajout de la classe personnalisée "input-container" */
 .input-container {
-  border: 1px solid firebrick;
+  border: 1px solid var(--rouge-damotic);
   border-radius: 4px;
   padding: 5px;
   margin-bottom: 10px;
