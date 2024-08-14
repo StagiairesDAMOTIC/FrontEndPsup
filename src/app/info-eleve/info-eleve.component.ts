@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import {FormsModule} from "@angular/forms";
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: '.app-info-eleve',
   templateUrl: './info-eleve.component.html',
-  styleUrl: './info-eleve.component.css'
+  styleUrl: '../app.component.css',
 })
-export class InfoEleveComponent {
-
-}
+export class InfoEleveComponent {}
