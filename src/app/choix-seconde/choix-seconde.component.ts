@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './choix-seconde.component.html',
   styleUrl: '../app.component.css',
 })
-export class ChoixSecondeComponent {}
+export class ChoixSecondeComponent {
+  // Variable qui détermine l'onglet actuellement actif
+  activeTab: number = 1;
+}

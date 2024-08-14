@@ -5,22 +5,22 @@
     <div class="search-header">
       <button
         class="search-header-item"
-        [ngClass]="{ active: activeTab == 1 }"
-        (click)="activeTab = 1"
+        [ngClass]="{ active: activeTab == 0 }"
+        (click)="activeTab = 0"
       >
         Par nom
       </button>
       <button
         class="search-header-item"
-        [ngClass]="{ active: activeTab == 2 }"
-        (click)="activeTab = 0"
+        [ngClass]="{ active: activeTab == 1 }"
+        (click)="activeTab = 1"
       >
         Par métier
       </button>
     </div>
 
     <div class="search-section" [ngSwitch]="activeTab">
-      <div class="search-form" *ngSwitchCase="1">
+      <div class="search-form" *ngSwitchCase="0">
         <div class="search-input">
           <span>Nom de formation, d’établissement...</span>
           <div class="input-field"></div>
@@ -34,9 +34,9 @@
           <div>I.U.T de Saint Dié</div>
         </div>
       </div>
-      <div class="search-form" *ngSwitchCase="2">
+      <div class="search-form" *ngSwitchCase="1">
         <div class="search-input">
-          <span>Nom de formation, d’établissement...</span>
+          <span>Nom de formation, d’...</span>
           <div class="input-field"></div>
         </div>
         <div class="search-input">
