@@ -109,7 +109,7 @@
       Poursuite en 1ere technologique
     </button>
   </div>
-  <div class="content">
+
     <div class="search-section" [ngSwitch]="activeTab">
       <div class="search-form" *ngSwitchCase="0">
         <div class="search-input">
@@ -121,10 +121,9 @@
           <div class="input-field"></div>
         </div>
         <div class="search-button">Rechercher</div>
-        <div class="search-result">
-          <div>I.U.T de Saint Dié</div>
-        </div>
+        <div class="content"></div>
       </div>
+
       <div class="search-form" *ngSwitchCase="1">
         <div class="search-input">
           <span>Nom de formation, d’...</span>
@@ -134,11 +133,12 @@
           <span>Zone géographique</span>
           <div class="input-field"></div>
         </div>
-        <div class="search-button">search</div>
-        <div class="search-result">
-          <div>I.U.T de Saint Dié</div>
-        </div>
+        <div class="search-button">Rechercher</div>
+        <div class="content"></div>
+
+
       </div>
+
+
     </div>
-  </div>
 </div>
