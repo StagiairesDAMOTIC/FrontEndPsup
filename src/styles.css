@@ -551,21 +551,29 @@ ul {
   padding: 5px 0; /* Ajoute de l'espace au-dessus et en dessous */
 }
 .niveau_2 {
-  color: green;
   font-style: italic;
   line-height: 1.4; /* Augmente l'interligne */
-  padding: 4px 0; /* Ajoute de l'espace au-dessus et en dessous */
+  padding: 8px 0; /* Ajoute de l'espace au-dessus et en dessous */
+  color: #d32f2f; /* Red */
+  font-size: 1.2em;
+  display: block;
+  margin-left: 20px;
 }
 .feuille {
-  color: brown;
   line-height: 1.3; /* Augmente l'interligne */
   padding: 3px 0; /* Ajoute de l'espace au-dessus et en dessous */
+  color: #0056b3; /* Dark blue */
+  font-size: 1em;
+  margin-left: 20px;
 }
+
 .leaf {
-  margin-left: 25px;
+  margin: 5px 0;
 }
+
 .leaf input[type="checkbox"] {
   margin-right: 5px;
+  transform: scale(1.1);
 }
 .logo-container {
   display: flex;
@@ -577,4 +585,29 @@ ul {
   width: 338px;
   height: 319px;
   object-fit: cover; /* Assure que l'image garde ses proportions */
+}
+/* Container and general settings */
+#levelListeCheckbox {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main level label (BUT) */
+.niveau_1 {
+  color: #0056b3; /* Dark blue */
+  font-size: 1.5em;
+  display: block;
+  padding: 10px 0;
+}
+
+/* Nested list styles */
+.nested {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 10px 0;
 }
