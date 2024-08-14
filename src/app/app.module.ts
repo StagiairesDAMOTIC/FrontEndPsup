@@ -22,6 +22,7 @@ import {ProfilAdmisFilieresComponent} from "./profil-admis-filieres/profil-admis
 import {ProfilAdmisSpesComponent} from "./profil-admis-spes/profil-admis-spes.component";
 import {ChancesAdmissionNiveauComponent} from "./chances-admission-niveau/chances-admission-niveau.component";
 import {InfoEleveComponent} from "./info-eleve/info-eleve.component";
+import {EncadreDePresentationComponent} from "./encadre-de-presentation/encadre-de-presentation.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -39,6 +40,7 @@ const routes: Routes = [
   { path: 'statistiques/ProfilAdmisFilieres', component: ProfilAdmisFilieresComponent },
   { path: 'statistiques/ProfilAdmisSpes', component: ProfilAdmisSpesComponent },
   { path: 'statistiques/ChancesAdmissionNiveau', component: ChancesAdmissionNiveauComponent },
+  { path: 'encadre-de-presentation', component: EncadreDePresentationComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 @NgModule({
@@ -60,6 +62,7 @@ const routes: Routes = [
     ProfilAdmisFilieresComponent,
     ProfilAdmisSpesComponent,
     ChancesAdmissionNiveauComponent,
+    EncadreDePresentationComponent,
   ],
   imports: [
     BrowserModule,
