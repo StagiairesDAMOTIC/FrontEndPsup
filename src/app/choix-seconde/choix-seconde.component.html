@@ -93,54 +93,50 @@
       </div></a
     >
   </div>
-
-  <div class="container">
-    <div class="content-wrapper">
-      <div class="background"></div>
-      <div class="barre-onglet">
-        <button
-          class="onglet"
-          [ngClass]="{ active: activeTab == 0 }"
-          (click)="activeTab = 0"
-        >
-          Poursuite en 1ere générale
-        </button>
-        <button
-          class="onglet"
-          [ngClass]="{ active: activeTab == 1 }"
-          (click)="activeTab = 1"
-        >
-          Poursuite en 1ere technologique
-        </button>
-      </div>
-      <div class="search-section" [ngSwitch]="activeTab">
-        <div class="search-form" *ngSwitchCase="0">
-          <div class="search-input">
-            <span>Nom de formation, d’établissement...</span>
-            <div class="input-field"></div>
-          </div>
-          <div class="search-input">
-            <span>Zone géographique</span>
-            <div class="input-field"></div>
-          </div>
-          <div class="search-button">Rechercher</div>
-          <div class="search-result">
-            <div>I.U.T de Saint Dié</div>
-          </div>
+  <div class="barre-onglet">
+    <button
+      class="onglet"
+      [ngClass]="{ active: activeTab == 0 }"
+      (click)="activeTab = 0"
+    >
+      Poursuite en 1ere générale
+    </button>
+    <button
+      class="onglet"
+      [ngClass]="{ active: activeTab == 1 }"
+      (click)="activeTab = 1"
+    >
+      Poursuite en 1ere technologique
+    </button>
+  </div>
+  <div class="content">
+    <div class="search-section" [ngSwitch]="activeTab">
+      <div class="search-form" *ngSwitchCase="0">
+        <div class="search-input">
+          <span>Nom de formation, d’établissement...</span>
+          <div class="input-field"></div>
         </div>
-        <div class="search-form" *ngSwitchCase="1">
-          <div class="search-input">
-            <span>Nom de formation, d’...</span>
-            <div class="input-field"></div>
-          </div>
-          <div class="search-input">
-            <span>Zone géographique</span>
-            <div class="input-field"></div>
-          </div>
-          <div class="search-button">search</div>
-          <div class="search-result">
-            <div>I.U.T de Saint Dié</div>
-          </div>
+        <div class="search-input">
+          <span>Zone géographique</span>
+          <div class="input-field"></div>
+        </div>
+        <div class="search-button">Rechercher</div>
+        <div class="search-result">
+          <div>I.U.T de Saint Dié</div>
+        </div>
+      </div>
+      <div class="search-form" *ngSwitchCase="1">
+        <div class="search-input">
+          <span>Nom de formation, d’...</span>
+          <div class="input-field"></div>
+        </div>
+        <div class="search-input">
+          <span>Zone géographique</span>
+          <div class="input-field"></div>
+        </div>
+        <div class="search-button">search</div>
+        <div class="search-result">
+          <div>I.U.T de Saint Dié</div>
         </div>
       </div>
     </div>

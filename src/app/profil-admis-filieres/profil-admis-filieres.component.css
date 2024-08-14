@@ -1,27 +1,3 @@
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 30px;
-  width: 100%;
-}
-
-.main-section {
-  width: 803px;
-  height: 601px;
-  position: relative;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-container {
-  position: relative;
-  width: 760px;
-  height: 533px;
-}
-
 .image-circle {
   position: absolute;
   width: 400px;
@@ -31,16 +7,6 @@
   transform: translateX(-50%);
   background: #d9d9d9;
   border-radius: 50%;
-}
-
-.sidebar {
-  width: 300px;
-  background: var(--bleu-damotic);
-  padding: 20px;
-}
-
-.sidebar.right {
-  height: 580px;
 }
 
 .sidebar-content {
