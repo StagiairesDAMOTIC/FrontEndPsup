@@ -556,3 +556,14 @@ ul {
 .leaf input[type="checkbox"] {
   margin-right: 5px;
 }
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 338px;
+  height: 319px;
+  object-fit: cover; /* Assure que l'image garde ses proportions */
+}
