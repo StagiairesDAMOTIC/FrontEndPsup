@@ -21,6 +21,8 @@
 
     <section class="search-section" [ngSwitch]="activeTab">
       <div class="search-form" *ngSwitchCase="0">
+        <div class="sidebar-left">
+
         <div id="levelListeCheckbox">
           <ul>
             <li>
@@ -168,6 +170,9 @@
               </ul>
             </li>
           </ul>
+          </div>
+        </div>
+          <div class="results-section">
           <div class="content">
             <table id="table" class="liste_res_table">
               <thead>
@@ -206,9 +211,13 @@
               </tbody>
             </table>
           </div>
-
+          </div>
         </div>
-  </div>
+
+
+
+
+
       <div class="search-form" *ngSwitchCase="1">
         <div id="levelListeCheckbox">
           <ul>
