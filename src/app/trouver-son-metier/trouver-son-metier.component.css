@@ -43,38 +43,3 @@
   border: 1px solid black;
   padding: 10px;
 }
-
-.list-item {
-  display: flex;
-  align-items: center;
-  padding: 5px 0;
-  border-bottom: 1px solid black;
-}
-
-.list-item-close {
-  margin-right: 10px;
-  font-size: 20px;
-  font-weight: 300;
-  cursor: pointer;
-}
-
-.list-item-icon {
-  width: 22px;
-  height: 22px;
-  margin-right: 10px;
-}
-
-.list-item-text {
-  font-size: 14px;
-  font-weight: 600;
-  color: black;
-}
-
-.group-item {
-  padding: 10px 0;
-  background: #d9d9d9;
-  border-bottom: 1px solid black;
-  text-align: center;
-  font-size: 16px;
-  color: black;
-}

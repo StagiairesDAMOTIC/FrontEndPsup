@@ -1,13 +1,3 @@
-/* Content */
-.content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-  padding: 20px;
-  gap: 20px;
-}
-
 .sidebar {
   width: 412px;
   background: var(--bleu-damotic);

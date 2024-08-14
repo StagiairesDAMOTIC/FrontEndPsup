@@ -213,6 +213,12 @@ footer {
   justify-content: center;
   margin: 10px;
 }
+/* Barre des onglets */
+.barre-onglet {
+  display: flex;
+  justify-content: space-between;
+  background: #b9b9b9;
+}
 
 /* Boutons des onglets */
 .onglet {
@@ -228,9 +234,13 @@ footer {
 .onglet.active {
   background: #d9d9d9;
 }
-/* Barre des onglets */
-.barre-onglet {
+
+.content {
+  width: 972px;
+  height: 512px;
+  margin-top: 50px;
   display: flex;
-  justify-content: space-between;
-  background: #b9b9b9;
+  justify-content: center;
+  align-items: center;
+  background: #d9d9d9;
 }

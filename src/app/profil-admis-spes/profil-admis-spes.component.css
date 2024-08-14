@@ -1,13 +1,3 @@
-/* Content */
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 30px;
-  width: 100%;
-  padding: 20px;
-}
-
 .main-section {
   width: 803px;
   height: 588px;
