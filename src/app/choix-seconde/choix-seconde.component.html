@@ -112,20 +112,23 @@
 
     <div class="search-section" [ngSwitch]="activeTab">
       <div class="search-form" *ngSwitchCase="0">
-        <div class="search-input">
-          <span>Nom de formation, d’établissement...</span>
-          <div class="input-field"></div>
-        </div>
-        <div class="search-input">
-          <span>Zone géographique</span>
-          <div class="input-field"></div>
-        </div>
-        <div class="search-button">Rechercher</div>
-        <div class="content"></div>
+        <div class = col100>
+          <div class="search-input">
+            <span>Nom de formation, d’établissement...</span>
+            <div class="input-field"></div>
+          </div>
+          <div class="search-input">
+            <span>Zone géographique</span>
+            <div class="input-field"></div>
+          </div>
+          <div class="search-button">Rechercher</div>
+          <div class="content"></div>
+          </div>
       </div>
 
       <div class="search-form" *ngSwitchCase="1">
-        <div class="search-input">
+        <div class = col100>
+          <div class="search-input">
           <span>Nom de formation, d’...</span>
           <div class="input-field"></div>
         </div>
@@ -135,10 +138,7 @@
         </div>
         <div class="search-button">Rechercher</div>
         <div class="content"></div>
-
-
+        </div>
       </div>
-
-
     </div>
 </div>
