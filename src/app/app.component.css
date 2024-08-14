@@ -244,3 +244,53 @@ footer {
   align-items: center;
   background: #d9d9d9;
 }
+
+.sidebar {
+  width: 412px;
+  background: var(--bleu-damotic);
+  padding: 20px;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+.sidebar-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filters-section {
+  background: var(--bleu-damotic);
+  padding: 20px;
+}
+
+.results-section {
+  background: var(--bleu-damotic);
+  padding: 20px;
+  color: white;
+}
+
+.results-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.result-item {
+  background: #d9d9d9;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.result-type,
+.result-access,
+.result-average {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
