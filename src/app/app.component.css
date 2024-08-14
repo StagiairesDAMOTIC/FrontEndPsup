@@ -246,8 +246,8 @@ footer {
 }
 
 .sidebar-left {
-  width: 26%;
-  margin-left: 20px;
+  width : 412px;
+  margin: 0 0 0 20px;
   background: var(--bleu-damotic);
   padding: 20px;
   color: white;
