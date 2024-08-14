@@ -556,3 +556,13 @@ ul {
 .leaf input[type="checkbox"] {
   margin-right: 5px;
 }
+.image-circle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 92px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #d9d9d9;
+  border-radius: 50%;
+}
