@@ -43,21 +43,6 @@
   transform-origin: center;
 }
 
-.main-image {
-  width: 935px;
-  height: 587px;
-  left: 185px;
-  top: 91px;
-}
-
-.navbar-choix {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-
 /* Content */
 .content {
   width: 972px;
@@ -76,9 +61,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.main-image {
-  width: 727px;
-  height: 459px;
 }

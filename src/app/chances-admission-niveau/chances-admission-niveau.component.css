@@ -28,26 +28,6 @@
   padding: 20px;
 }
 
-.filters-header {
-  color: #dc2242;
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.filter-bars {
-  background: white;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.filter-bar {
-  background: var(--rouge-damotic);
-  height: 26px;
-  margin-bottom: 10px;
-}
-
 .main-section {
   width: 100%;
   display: flex;
@@ -119,11 +99,4 @@
   font-size: 16px;
   font-weight: 700;
   text-align: center;
-}
-.navbar-choix {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
 }

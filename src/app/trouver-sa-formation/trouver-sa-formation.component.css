@@ -7,28 +7,6 @@
   gap: 20px;
 }
 
-/* Barre des onglets */
-.search-header {
-  display: flex;
-  justify-content: space-between;
-  background: #b9b9b9;
-}
-
-/* Boutons des onglets */
-.search-header-item {
-  width: 50%;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 20px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-/* Bouton actif */
-.search-header-item.active {
-  background: #d9d9d9;
-}
-
 /* Section de recherche */
 .search-section {
   background: var(--bleu-damotic);

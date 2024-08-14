@@ -1,152 +1,148 @@
 <div class="title">Choix de Parcours</div>
-<div class="container"></div>
-<div class="navbar-choix">
-  <a [routerLink]="['/choix-de-parcours/seconde']"
-    ><div style="width: 118.62px; height: 76.98px">
-      <div
-        style="
-          width: 118.62px;
-          height: 76.98px;
-          left: 0px;
-          top: 0px;
-
-          background: #80101e;
-        "
-      >
-        <div
-          style="
-            width: 118.62px;
-            height: 75.5px;
-            left: 0px;
-            top: 0px;
-            text-align: center;
-            color: white;
-            font-size: 14px;
-            font-family: Inter;
-            font-weight: 600;
-            word-wrap: break-word;
-          "
-        >
-          Choix de parcours - 2nde
-        </div>
-      </div>
-    </div></a
-  >
-  <a [routerLink]="['/choix-de-parcours/premiere-generale']"
-    ><div style="width: 118.62px; height: 76.98px">
-      <div
-        style="
-          width: 118.62px;
-          height: 76.98px;
-          left: 0px;
-          top: 0px;
-          background: var(--rouge-damotic);
-        "
-      >
-        <div
-          style="
-            width: 118.62px;
-            height: 75.5px;
-            left: 0px;
-            top: 0px;
-            text-align: center;
-            color: white;
-            font-size: 14px;
-            font-family: Inter;
-            font-weight: 600;
-            word-wrap: break-word;
-          "
-        >
-          Choix de parcours - 1ère Générale
-        </div>
-      </div>
-    </div></a
-  >
-  <a [routerLink]="['/choix-de-parcours/premiere-techno']">
-    <div style="width: 118.62px; height: 76.98px">
-      <div
-        style="
-          width: 118.62px;
-          height: 76.98px;
-          left: 0px;
-          top: 0px;
-          background: var(--rouge-damotic);
-        "
-      >
-        <div
-          style="
-            width: 118.62px;
-            height: 75.5px;
-            left: 0px;
-            top: 0px;
-            text-align: center;
-            color: white;
-            font-size: 14px;
-            font-family: Inter;
-            font-weight: 600;
-            word-wrap: break-word;
-          "
-        >
-          Choix de parcours - 1ère Techno
-        </div>
-      </div>
-    </div></a
-  >
-</div>
-
 <div class="container">
-  <div class="content-wrapper">
-    <div class="background"></div>
-    <div class="search-header">
-      <button
-        class="search-header-item"
-        [ngClass]="{ active: activeTab == 0 }"
-        (click)="activeTab = 0"
-      >
-        Poursuite en 1ere générale
-      </button>
-      <button
-        class="search-header-item"
-        [ngClass]="{ active: activeTab == 1 }"
-        (click)="activeTab = 1"
-      >
-        Poursuite en 1ere technologique
-      </button>
-    </div>
-    <div class="search-section" [ngSwitch]="activeTab">
-      <div class="search-form" *ngSwitchCase="0">
-        <div class="search-input">
-          <span>Nom de formation, d’établissement...</span>
-          <div class="input-field"></div>
+  <div class="navbar-choix">
+    <a [routerLink]="['/choix-de-parcours/seconde']"
+      ><div style="width: 118.62px; height: 76.98px">
+        <div
+          style="
+            width: 118.62px;
+            height: 76.98px;
+            left: 0px;
+            top: 0px;
+
+            background: #80101e;
+          "
+        >
+          <div
+            style="
+              width: 118.62px;
+              height: 75.5px;
+              left: 0px;
+              top: 0px;
+              text-align: center;
+              color: white;
+              font-size: 14px;
+              font-family: Inter;
+              font-weight: 600;
+              word-wrap: break-word;
+            "
+          >
+            Choix de parcours - 2nde
+          </div>
         </div>
-        <div class="search-input">
-          <span>Zone géographique</span>
-          <div class="input-field"></div>
+      </div></a
+    >
+    <a [routerLink]="['/choix-de-parcours/premiere-generale']"
+      ><div style="width: 118.62px; height: 76.98px">
+        <div
+          style="
+            width: 118.62px;
+            height: 76.98px;
+            left: 0px;
+            top: 0px;
+            background: var(--rouge-damotic);
+          "
+        >
+          <div
+            style="
+              width: 118.62px;
+              height: 75.5px;
+              left: 0px;
+              top: 0px;
+              text-align: center;
+              color: white;
+              font-size: 14px;
+              font-family: Inter;
+              font-weight: 600;
+              word-wrap: break-word;
+            "
+          >
+            Choix de parcours - 1ère Générale
+          </div>
         </div>
-        <div class="search-button">Rechercher</div>
-        <div class="search-result">
-          <div>I.U.T de Saint Dié</div>
+      </div></a
+    >
+    <a [routerLink]="['/choix-de-parcours/premiere-techno']">
+      <div style="width: 118.62px; height: 76.98px">
+        <div
+          style="
+            width: 118.62px;
+            height: 76.98px;
+            left: 0px;
+            top: 0px;
+            background: var(--rouge-damotic);
+          "
+        >
+          <div
+            style="
+              width: 118.62px;
+              height: 75.5px;
+              left: 0px;
+              top: 0px;
+              text-align: center;
+              color: white;
+              font-size: 14px;
+              font-family: Inter;
+              font-weight: 600;
+              word-wrap: break-word;
+            "
+          >
+            Choix de parcours - 1ère Techno
+          </div>
+        </div>
+      </div></a
+    >
+  </div>
+
+  <div class="container">
+    <div class="content-wrapper">
+      <div class="background"></div>
+      <div class="barre-onglet">
+        <button
+          class="onglet"
+          [ngClass]="{ active: activeTab == 0 }"
+          (click)="activeTab = 0"
+        >
+          Poursuite en 1ere générale
+        </button>
+        <button
+          class="onglet"
+          [ngClass]="{ active: activeTab == 1 }"
+          (click)="activeTab = 1"
+        >
+          Poursuite en 1ere technologique
+        </button>
+      </div>
+      <div class="search-section" [ngSwitch]="activeTab">
+        <div class="search-form" *ngSwitchCase="0">
+          <div class="search-input">
+            <span>Nom de formation, d’établissement...</span>
+            <div class="input-field"></div>
+          </div>
+          <div class="search-input">
+            <span>Zone géographique</span>
+            <div class="input-field"></div>
+          </div>
+          <div class="search-button">Rechercher</div>
+          <div class="search-result">
+            <div>I.U.T de Saint Dié</div>
+          </div>
+        </div>
+        <div class="search-form" *ngSwitchCase="1">
+          <div class="search-input">
+            <span>Nom de formation, d’...</span>
+            <div class="input-field"></div>
+          </div>
+          <div class="search-input">
+            <span>Zone géographique</span>
+            <div class="input-field"></div>
+          </div>
+          <div class="search-button">search</div>
+          <div class="search-result">
+            <div>I.U.T de Saint Dié</div>
+          </div>
         </div>
       </div>
-      <div class="search-form" *ngSwitchCase="1">
-        <div class="search-input">
-          <span>Nom de formation, d’...</span>
-          <div class="input-field"></div>
-        </div>
-        <div class="search-input">
-          <span>Zone géographique</span>
-          <div class="input-field"></div>
-        </div>
-        <div class="search-button">search</div>
-        <div class="search-result">
-          <div>I.U.T de Saint Dié</div>
-        </div>
-      </div>
     </div>
-    <img
-      class="main-image"
-      src="https://via.placeholder.com/935x587"
-      alt="Placeholder image"
-    />
   </div>
 </div>
