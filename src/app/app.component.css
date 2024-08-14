@@ -246,16 +246,18 @@ footer {
 }
 
 .sidebar-left {
-  width : 412px;
-  margin: 0 0 0 20px;
+  width: 412px;
+  margin-left: 10px; /* Pour éviter un espace supplémentaire à gauche */
   background: var(--bleu-damotic);
   padding: 20px;
   color: white;
   font-family: Inter, sans-serif;
-  position: absolute;
-  bottom: 50px;
-  left: 0%;
+  align-self: flex-start; /* Aligne la barre latérale à gauche dans le conteneur */
+  box-sizing: border-box;
+  height: 100vh; /* Prend toute la hauteur de l'écran */
+  position: relative; /* Reste dans le flux normal du document */
 }
+
 .sidebar.right {
   height: 580px;
 }
@@ -277,7 +279,9 @@ footer {
   padding: 20px;
   color: white;
   margin-bottom: 20px;
-
+  flex-grow: 1; /* Permet à la section de résultats de prendre tout l'espace restant */
+  height: 100%; /* S'assure que la section résultats a la même hauteur que la sidebar */
+  box-sizing: border-box;
 }
 
 .results-title {
