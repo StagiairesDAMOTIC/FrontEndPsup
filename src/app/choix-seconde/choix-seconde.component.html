@@ -103,14 +103,14 @@
         [ngClass]="{ active: activeTab == 0 }"
         (click)="activeTab = 0"
       >
-        Par nom
+        Poursuite en 1ere générale
       </button>
       <button
         class="search-header-item"
         [ngClass]="{ active: activeTab == 1 }"
         (click)="activeTab = 1"
       >
-        Par métier
+        Poursuite en 1ere technologique
       </button>
     </div>
     <div class="search-section" [ngSwitch]="activeTab">
