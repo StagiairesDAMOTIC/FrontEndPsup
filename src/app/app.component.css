@@ -245,8 +245,24 @@ footer {
   background: #d9d9d9;
 }
 
+.column35 {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+}
+
+.column65{
+  width : 65%;
+  display: flex;
+  flex-direction: row;
+}
+
+.column100{
+  width : 100%;
+  align-items: normal;
+}
+
 .sidebar {
-  width: 412px;
   background: var(--bleu-damotic);
   padding: 20px;
   color: white;
