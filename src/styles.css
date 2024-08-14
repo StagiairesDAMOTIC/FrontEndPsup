@@ -1,3 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+:root{
+  --bleu-damotic: #132f49;
+  --rouge-damotic: #cf0024;
+}
 body-info {
   margin: 0;
   font-family: "Inter", sans-serif;
