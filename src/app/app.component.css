@@ -444,4 +444,100 @@ footer {
   transform-origin: center;
 }
 
+.progress-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+.progress-bar {
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  background-color: #e0e0e0; /* Gris clair pour le fond */
+}
+.progress-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transition: width 0.5s;
+}
+.red::after {
+  background-color: #FF0000; /* Rouge */
+  width: 20%;
+}
+.orange::after {
+  background-color: #FFA500; /* Orange */
+  width: 40%;
+}
+.yellow::after {
+  background-color: #FFFF00; /* Jaune */
+  width: 60%;
+}
+.light-green::after {
+  background-color: #90EE90; /* Vert clair */
+  width: 80%;
+}
+.dark-green::after {
+  background-color: #006400; /* Vert foncé */
+  width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+.toggle {
+  display: none;
+}
+.toggle + label::before {
+  content: '+';
+  display: inline-block;
+  width: 20px; /* Largeur du carré */
+  height: 20px; /* Hauteur du carré */
+  text-align: center;
+  line-height: 20px;
+  background-color: blue;
+  color: white;
+  margin-right: 5px;
+  border-radius: 4px;
 
+  border-radius: 0; /* Pas de bords arrondis pour un carré */
+}
+.toggle:checked + label::before {
+  content: '-';
+}
+.nested {
+  display: none;
+}
+.toggle:checked ~ .nested {
+  display: block;
+}
+.niveau_1 {
+  color: blue;
+  font-weight: bold;
+  line-height: 1.5; /* Augmente l'interligne */
+  padding: 5px 0; /* Ajoute de l'espace au-dessus et en dessous */
+}
+.niveau_2 {
+  color: green;
+  font-style: italic;
+  line-height: 1.4; /* Augmente l'interligne */
+  padding: 4px 0; /* Ajoute de l'espace au-dessus et en dessous */
+}
+.feuille {
+  color: brown;
+  line-height: 1.3; /* Augmente l'interligne */
+  padding: 3px 0; /* Ajoute de l'espace au-dessus et en dessous */
+}
+.leaf {
+  margin-left: 25px;
+}
+.leaf input[type='checkbox'] {
+  margin-right: 5px;
+}

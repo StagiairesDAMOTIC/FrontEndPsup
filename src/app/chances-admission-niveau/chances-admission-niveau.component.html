@@ -98,7 +98,146 @@
   <div class="sidebar-left">
     <div class="sidebar-title">Filtres</div>
     <div class="filters-section">
-      <!-- mettre les filtres -->
+      <div id="levelListeCheckbox">
+        <ul>
+          <li>
+            <input type="checkbox" id="level1" class="toggle"/>
+            <label for="level1">
+              <span class="niveau_1"><b>BUT</b></span>
+            </label>
+            <ul class="nested">
+              <li>
+                <input type="checkbox" id="level1.1" class="toggle"/>
+                <label for="level1.1">
+                  <span class="niveau_2">BUT - Production (Informatique, Génie mécanique, etc.</span>
+                </label>
+                <ul class="nested">
+                  <li class="leaf">
+                    <input type="checkbox" id="item1"/>
+                    <label for="item1">
+                      <span class="feuille">Chimie</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item2"/>
+                    <label for="item2">
+                      <span class="feuille">Génie biologique Parcours agronomie</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item3"/>
+                    <label for="item3">
+                      <span class="feuille">Génie biologique parcours biologie médicale et biotechnologie </span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item4"/>
+                    <label for="item4">
+                      <span class="feuille">Génie biologique Parcours diététique et nutrition</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item5"/>
+                    <label for="item5">
+                      <span class="feuille">Génie biologique parcours sciences de l'aliment et biotechnologie </span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item6"/>
+                    <label for="item6">
+                      <span class="feuille">Génie biologique parcours sciences de l'environnement et écotechnologies </span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item7"/>
+                    <label for="item7">
+                      <span class="feuille">Génie chimique génie des procédés</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item8"/>
+                    <label for="item8">
+                      <span class="feuille">Génie civil - Construction durable</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item9"/>
+                    <label for="item9">
+                      <span class="feuille">Génie électrique et informatique industrielle</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item10"/>
+                    <label for="item10">
+                      <span class="feuille">Génie industriel et maintenance</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item11"/>
+                    <label for="item11">
+                      <span class="feuille">Génie mécanique et productique</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item12"/>
+                    <label for="item12">
+                      <span class="feuille">Hygiène Sécurité Environnement</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item13"/>
+                    <label for="item13">
+                      <span class="feuille">Informatique</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item14"/>
+                    <label for="item14">
+                      <span class="feuille">Mesures physiques</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item15"/>
+                    <label for="item15">
+                      <span class="feuille">Métiers de la Transition et de l'Efficacité Énergétiques</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item16"/>
+                    <label for="item16">
+                      <span class="feuille">Métiers du multimédia et de l'internet</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item17"/>
+                    <label for="item17">
+                      <span class="feuille">Packaging, emballage et conditionnement</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item18"/>
+                    <label for="item18">
+                      <span class="feuille">Qualité, logistique industrielle et organisation</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item19"/>
+                    <label for="item19">
+                      <span class="feuille">Réseaux et télécommunications</span>
+                    </label>
+                  </li>
+                  <li class="leaf">
+                    <input type="checkbox" id="item20"/>
+                    <label for="item20">
+                      <span class="feuille">Science et génie des matériaux</span>
+                    </label>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="results-section">
@@ -107,7 +246,28 @@
       <div class="result-type">Type de formation</div>
       <div class="result-access">Mon taux d’accès (%)</div>
       <div class="result-average">Moyenne des admis</div>
-      <!-- mettre la liste de résultats -->
+      <table id="table" class="liste_res_table">
+      <thead>
+
+      <tr class="liste_res_head_tr">
+        <th class="liste_res_head_tr1">Type de formation</th>
+        <th class="liste_res_head_tr2">Moyenne admis<br>&#9650;&#9660;</th>
+        <th class="liste_res_head_tr3"><b>Mon taux d'accès</b><br>&#9650;&#9660;</th>
+        <th class="liste_res_head_tr4">Chance admission<br>&#9650;&#9660;</th>
+      </tr>
+
+      </thead>
+      <tbody>
+
+      <tr class="liste_res_tr">
+        <td class="liste_res_td1">BUT / Génie électrique et informatique industriel</td>
+        <td class="liste_res_td2">14/20</td>
+        <td class="liste_res_td3">85%</td>
+        <td class="liste_res_td4"><div class="progress-container"><div class="progress-bar dark-green"></div></div></td>   <!-- progress bar -->
+      </tr>
+
+      </tbody>
+      </table>
     </div>
   </div>
 </div>
