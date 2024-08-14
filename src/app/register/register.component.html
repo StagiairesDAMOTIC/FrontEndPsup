@@ -12,7 +12,7 @@
   <ng-template #signupForm>
     <div class="row col-sm-6" style="max-width:350px;">
       <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
-        <h1>Please enter your information</h1>
+        <h1>Rentrez vos informations</h1>
         <div class="form-group input-container">
           <label for="username" id="username">Nom d'utilisateur</label>
           <input type="text" class="form-control" name="username" [(ngModel)]="form.username" #username="ngModel" required />
