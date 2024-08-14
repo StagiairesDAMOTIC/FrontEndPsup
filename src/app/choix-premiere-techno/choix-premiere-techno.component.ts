@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-choix-terminale',
   templateUrl: './choix-premiere-techno.component.html',
-  styleUrl: './choix-premiere-techno.component.css'
+  styleUrl: '../app.component.css',
 })
-export class ChoixPremiereTechnoComponent {
-
-}
+export class ChoixPremiereTechnoComponent {}

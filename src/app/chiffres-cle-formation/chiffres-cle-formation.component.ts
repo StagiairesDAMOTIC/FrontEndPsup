@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './chiffres-cle-formation.component.html',
-  styleUrl: './chiffres-cle-formation.component.css'
+  styleUrl: '../app.component.css',
 })
-export class ChiffresCleFormationComponent {
-
-}
+export class ChiffresCleFormationComponent {}

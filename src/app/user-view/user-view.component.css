@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -12,15 +12,6 @@ body {
   align-items: center;
   gap: 20px;
   padding: 20px;
-}
-
-.header {
-  width: 100%;
-  background: var(--bleu-damotic);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0;
 }
 
 .header-title {
@@ -82,14 +73,14 @@ body {
   justify-self: end; /* Aligne le bouton à droite de sa grille */
 }
 
-
 .main-content {
   display: flex;
   width: 100%;
   gap: 20px;
 }
 
-.favorites-section, .establishments-section {
+.favorites-section,
+.establishments-section {
   flex: 1;
   background: var(--bleu-damotic);
   padding: 20px;

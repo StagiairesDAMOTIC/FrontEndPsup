@@ -41,3 +41,17 @@ footer {
   width: 100%;
   height: 93px;
 }
+
+.title {
+  width: 300px;
+  height: 50px;
+  background: var(--bleu-damotic);
+  color: white;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Cette ligne permet de centrer l'élément horizontalement */
+}

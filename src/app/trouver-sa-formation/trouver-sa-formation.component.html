@@ -1,15 +1,26 @@
+<div class="title">Trouver sa formation</div>
 <div class="container">
-  <div class="header">Trouver sa formation</div>
-
   <div class="content">
     <div class="app-info-eleve"></div>
     <div class="search-header">
-      <button class="search-header-item" [ngClass]="{'active': activeTab == 1}" (click)="activeTab=1">Par nom</button>
-      <button class="search-header-item" [ngClass]="{'active': activeTab == 2}" (click)="activeTab=0">Par métier</button>
+      <button
+        class="search-header-item"
+        [ngClass]="{ active: activeTab == 1 }"
+        (click)="activeTab = 1"
+      >
+        Par nom
+      </button>
+      <button
+        class="search-header-item"
+        [ngClass]="{ active: activeTab == 2 }"
+        (click)="activeTab = 0"
+      >
+        Par métier
+      </button>
     </div>
 
     <div class="search-section" [ngSwitch]="activeTab">
-      <div class="search-form" *ngSwitchCase="1" >
+      <div class="search-form" *ngSwitchCase="1">
         <div class="search-input">
           <span>Nom de formation, d’établissement...</span>
           <div class="input-field"></div>
