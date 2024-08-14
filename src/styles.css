@@ -272,6 +272,7 @@ main{
   box-sizing: border-box;
   height: 100vh; /* Prend toute la hauteur de l'écran */
   position: relative; /* Reste dans le flux normal du document */
+
 }
 
 .sidebar.right {
@@ -295,6 +296,7 @@ main{
   padding: 20px;
   color: white;
   margin-bottom: 20px;
+  margin-left: 10px;
   flex-grow: 1; /* Permet à la section de résultats de prendre tout l'espace restant */
   height: 100%; /* S'assure que la section résultats a la même hauteur que la sidebar */
   box-sizing: border-box;
@@ -317,13 +319,6 @@ main{
   align-items: center;
 }
 
-.result-type,
-.result-access,
-.result-average {
-  font-size: 16px;
-  font-weight: 700;
-  text-align: center;
-}
 
 .form-section {
   margin-top: 20px;
