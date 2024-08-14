@@ -4,12 +4,12 @@
   <div class="content">
     <div class="app-info-eleve"></div>
     <div class="search-header">
-      <button class="search-header-item" [class.active]="activeTab === 0" (click)="openTab(0)">Par nom</button>
-      <button class="search-header-item" [class.active]="activeTab === 1" (click)="openTab(1)">Par métier</button>
+      <button class="search-header-item" [ngClass]="{'active': activeTab == 1}" (click)="activeTab=1">Par nom</button>
+      <button class="search-header-item" [ngClass]="{'active': activeTab == 2}" (click)="activeTab=0">Par métier</button>
     </div>
 
-    <div class="search-section">
-      <div class="search-form" *ngIf="activeTab === 0">
+    <div class="search-section" [ngSwitch]="activeTab">
+      <div class="search-form" *ngSwitchCase="1" >
         <div class="search-input">
           <span>Nom de formation, d’établissement...</span>
           <div class="input-field"></div>
@@ -23,7 +23,7 @@
           <div>I.U.T de Saint Dié</div>
         </div>
       </div>
-      <div class="search-form" *ngIf="activeTab === 1">
+      <div class="search-form" *ngSwitchCase="2">
         <div class="search-input">
           <span>Nom de formation, d’établissement...</span>
           <div class="input-field"></div>

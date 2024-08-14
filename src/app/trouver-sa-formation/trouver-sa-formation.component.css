@@ -1,3 +1,4 @@
+/* Container général */
 .container {
   width: 100%;
   height: 100%;
@@ -7,6 +8,7 @@
   align-items: center;
 }
 
+/* Titre de la section */
 .header {
   width: 300px;
   height: 50px;
@@ -21,6 +23,7 @@
   margin-top: 20px;
 }
 
+/* Contenu général */
 .content {
   width: 1015px;
   display: flex;
@@ -29,53 +32,14 @@
   gap: 20px;
 }
 
-.form-section {
-  background: var(--bleu-damotic);
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.form-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
-}
-
-.form-item {
-  width: 48%;
-  display: flex;
-  flex-direction: column;
-}
-
-.label {
-  color: white;
-  font-size: 14px;
-  font-family: Inter, sans-serif;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.input {
-  background: white;
-  border: 1px solid black;
-  padding: 5px;
-  font-size: 14px;
-  color: black;
-  font-weight: 600;
-}
-
-.search-section {
-  background: var(--bleu-damotic);
-  padding: 20px;
-  border-radius: 5px;
-}
-
+/* Barre des onglets */
 .search-header {
   display: flex;
   justify-content: space-between;
   background: #b9b9b9;
 }
 
+/* Boutons des onglets */
 .search-header-item {
   width: 50%;
   text-align: center;
@@ -85,16 +49,26 @@
   cursor: pointer;
 }
 
+/* Bouton actif */
 .search-header-item.active {
   background: #d9d9d9;
 }
 
+/* Section de recherche */
+.search-section {
+  background: var(--bleu-damotic);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Formulaire de recherche */
 .search-form {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
+/* Champs de recherche */
 .search-input {
   width: 45%;
   display: flex;
@@ -108,6 +82,7 @@
   border: 1px solid black;
 }
 
+/* Bouton de recherche */
 .search-button {
   background: var(--rouge-damotic);
   color: white;
@@ -118,21 +93,10 @@
   margin-top: 20px;
 }
 
+/* Résultats de recherche */
 .search-result {
   margin-top: 20px;
   color: white;
   font-weight: 600;
   font-size: 14px;
-}
-
-.save-button {
-  background: var(--rouge-damotic);
-  color: white;
-  text-align: center;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 20px;
-  cursor: pointer;
-  border-radius: 5px;
 }
