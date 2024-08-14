@@ -245,12 +245,15 @@ footer {
   background: #d9d9d9;
 }
 
-.sidebar {
+.sidebar-left {
   width: 412px;
   background: var(--bleu-damotic);
   padding: 20px;
   color: white;
   font-family: Inter, sans-serif;
+}
+.sidebar.right {
+  height: 580px;
 }
 
 .sidebar-title {
