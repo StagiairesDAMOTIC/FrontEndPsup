@@ -246,11 +246,15 @@ footer {
 }
 
 .sidebar-left {
-  width: 412px;
+  width: 26%;
+  margin-left: 20px;
   background: var(--bleu-damotic);
   padding: 20px;
   color: white;
   font-family: Inter, sans-serif;
+  position: absolute;
+  bottom: 6.5%;
+  left: 0%;
 }
 .sidebar.right {
   height: 580px;
@@ -272,6 +276,8 @@ footer {
   background: var(--bleu-damotic);
   padding: 20px;
   color: white;
+  margin-bottom: 20px;
+
 }
 
 .results-title {
