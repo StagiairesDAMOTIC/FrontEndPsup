@@ -294,6 +294,7 @@ footer {
   flex-grow: 1; /* Permet à la section de résultats de prendre tout l'espace restant */
   height: 100%; /* S'assure que la section résultats a la même hauteur que la sidebar */
   box-sizing: border-box;
+  position : relative;
 }
 
 .results-title {
@@ -555,14 +556,4 @@ ul {
 }
 .leaf input[type="checkbox"] {
   margin-right: 5px;
-}
-.image-circle {
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  top: 92px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #d9d9d9;
-  border-radius: 50%;
 }
