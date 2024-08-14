@@ -297,3 +297,63 @@ footer {
   font-weight: 700;
   text-align: center;
 }
+
+.form-section {
+  margin-top: 20px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  color: white;
+  background-color: var(--bleu-damotic);
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  flex: 2;
+  justify-content: space-between;
+}
+
+.input-value {
+  color: black;
+}
+
+.result-section {
+  margin-top: 40px;
+}
+
+.result-header,
+.result-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 10px;
+}
+
+.result-header {
+  background-color: #d9d9d9;
+  font-weight: bold;
+}
+
+.result-content {
+  background-color: #efefef;
+  border: 1px solid black;
+}
+
+.result-row div {
+  text-align: center;
+}
+.recherche-metier{
+
+}
