@@ -1,12 +1,3 @@
-.container {
-  width: 100%;
-  height: 100%;
-  background: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .header-title {
   color: white;
   font-size: 20px;
@@ -47,15 +38,6 @@
   transform: translateX(-50%);
   background: #d9d9d9;
   border-radius: 50%;
-}
-
-.main-image {
-  position: absolute;
-  top: 68px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 760px;
-  height: 533px;
 }
 
 .sidebar {
@@ -100,27 +82,6 @@
   background: var(--rouge-damotic);
   height: 24.23px;
   margin-bottom: 10px;
-}
-
-.buttons-section {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.button {
-  width: 118.62px;
-  height: 76.98px;
-  background: var(--rouge-damotic);
-  color: white;
-  font-size: 14px;
-  font-family: Inter, sans-serif;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .navbar-choix {
