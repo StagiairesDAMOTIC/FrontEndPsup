@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './encadre-de-presentation.component.html',
   styleUrl: '../app.component.css',
 })
-export class EncadreDePresentationComponent {}
+export class EncadreDePresentationComponent {
+  // Variable qui détermine l'onglet actuellement actif
+  activeTab: number = 0;
+}
