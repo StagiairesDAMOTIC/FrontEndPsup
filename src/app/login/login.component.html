@@ -1,6 +1,6 @@
 <div style="float: left; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);">
   <div *ngIf="isLoggedIn; else loggedOut">
-    Logged in as {{roles}}.
+    Connecté en tant que {{roles}}.
     <br>
     <button class="btn btn-secondary" (click)="logout()">Logout</button>
   </div>
@@ -9,33 +9,32 @@
       <br><br>
       <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
         <div class="form-group">
-          <label for="username" id="username">Username</label>
+          <label for="username" id="username">Nom d'utilisateur</label>
           <input type="text" class="form-control" name="username" [(ngModel)]="form.username" #username="ngModel"
                  required />
           <div *ngIf="f.submitted && username.invalid">
-            <div *ngIf="['username.errors?.required']">Username is required</div>
+            <div *ngIf="['username.errors?.required']">Un nom d'utilisateur est requis</div>
           </div>
         </div>
         <div class="form-group">
-          <label for="password" id="password">Password</label>
+          <label for="password" id="password">Mot de passe</label>
           <input type="password" class="form-control" name="password" [(ngModel)]="form.password" #password="ngModel"
                  required minlength="6" />
           <div *ngIf="f.submitted && password.invalid">
-            <div *ngIf="['password.errors?.required']">Password is required</div>
-            <div *ngIf="['password.errors?.minlength']">Password must be at least 6 characters</div>
+            <div *ngIf="['password.errors?.required']">Un mot de passe est requis</div>
+            <div *ngIf="['password.errors?.minlength']">Le mot de passe doit faire plus de 6 caractères</div>
           </div>
         </div>
         <div class="form-group">
-          <button class="btn btn-primary">Login</button>
+          <button class="btn btn-primary">Se connecter</button>
           <div *ngIf="f.submitted && isLoginFailed" class="alert alert-danger">
             Login failed: {{errorMessage}}
           </div>
         </div>
       </form>
       <hr />
-      <p>Hey student, don't have an account?</p>
-      <a [routerLink]="['/signup']" class="btn btn-success"> Student Sign Up</a>
-      <p>If you're a teacher and you don't have an account, ask the school administrator.</p>
+      <p>Hey tu es élève et tu n'as pas de compte ?</p>
+      <a [routerLink]="['/signup']" class="btn btn-success"> S'incrire comme élève</a>
     </div>
   </ng-template>
 </div>
