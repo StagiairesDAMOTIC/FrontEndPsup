@@ -290,7 +290,7 @@ main{
   padding: 20px;
   color: white;
   font-family: Inter, sans-serif;
-  align-self: flex-start; /* Aligne la barre latérale à gauche dans le conteneur */
+  align-self: flex-end; /* Aligne la barre latérale à droite dans le conteneur */
   box-sizing: border-box;
   height: 100vh; /* Prend toute la hauteur de l'écran */
   position: relative; /* Reste dans le flux normal du document */
@@ -633,8 +633,8 @@ ul {
 }
 
 .image-container {
-  width: auto;
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 30%;
+  align-items: center;
 }
