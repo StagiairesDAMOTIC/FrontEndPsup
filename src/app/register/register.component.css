@@ -78,7 +78,7 @@ body, html {
 
 /* Appliquer les styles à tous les éléments ayant la classe "form-control" à l'intérieur de "input-container" */
 .input-container .form-control {
-  border: none;
+  border: 1px solid #ccc;
   outline: none;
   width: 97%;
 }
@@ -89,4 +89,8 @@ body, html {
   font-size: 12px;
 }
 
+.displayecolumn{
+  display: flex;
+  flex-direction: column;
+}
 
