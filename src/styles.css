@@ -258,9 +258,8 @@ main{
 }
 
 .content {
-  width: 972px;
-  height: 512px;
-  margin-top: 50px;
+  width: auto;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,7 +282,10 @@ main{
 
 .sidebar-right {
   height: 580px;
-  width: 30%;
+}
+.map-formation{
+  width: fit-content;
+  height: 70%;
 }
 
 .sidebar-title {
