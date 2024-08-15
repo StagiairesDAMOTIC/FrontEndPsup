@@ -575,22 +575,22 @@ ul {
 .niveau_1 {
   color: var(--bleu-damotic);
   font-weight: bold;
-  line-height: 1.5; /* Augmente l'interligne */
-  font-size: 1.5em;
+  line-height: 1;
+  font-size: 1.2em;
   display: block;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 .niveau_2 {
   font-style: italic;
-  line-height: 1.4; /* Augmente l'interligne */
+  line-height: 1;
   padding: 8px 0;
   color: var(--rouge-damotic);
   font-size: 1.2em;
   display: block;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .feuille {
-  line-height: 1.3; /* Augmente l'interligne */
+  line-height: 1;
   padding: 3px 0;
   color: var(--bleu-damotic);
   font-size: 1em;
@@ -734,4 +734,14 @@ table {
 
 p {
   text-align: justify;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+}
+
+li.leaf {
+  display: flex;
+  flex-direction: row;
 }
