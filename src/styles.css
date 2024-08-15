@@ -281,7 +281,16 @@ main{
 }
 
 .sidebar-right {
-  height: 580px;
+  width: 412px;
+  margin-right: 10px; /* Pour éviter un espace supplémentaire à gauche */
+  background: var(--bleu-damotic);
+  padding: 20px;
+  color: white;
+  font-family: Inter, sans-serif;
+  align-self: flex-start; /* Aligne la barre latérale à gauche dans le conteneur */
+  box-sizing: border-box;
+  height: 100vh; /* Prend toute la hauteur de l'écran */
+  position: relative; /* Reste dans le flux normal du document */
 }
 .map-formation{
   width: fit-content;
@@ -616,5 +625,13 @@ ul {
 }
 
 .image-circle {
-  scale: 50%;
+  scale: 30%;
+  position: relative;
+}
+
+.image-container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
 }
