@@ -638,3 +638,8 @@ ul {
   flex-direction: column;
   width: 20%;
 }
+
+.displayerow{
+  display: flex;
+  flex-direction: row;
+}

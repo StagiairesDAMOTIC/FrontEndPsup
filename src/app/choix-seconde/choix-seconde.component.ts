@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class ChoixSecondeComponent {
   // Variable qui détermine l'onglet actuellement actif
-  activeTab: number = 1;
+  activeTab: number = 0;
 }
