@@ -392,7 +392,6 @@ main{
   padding: 20px;
   border-radius: 5px;
   color: white;
-  margin: 0 0 20px 0;
   display: flex;
   flex-direction: row;
   margin: 0 20px 20px 20px;
@@ -612,4 +611,8 @@ ul {
   list-style-type: none;
   padding-left: 20px;
   margin: 10px 0;
+}
+
+.image-circle {
+  scale: 50%;
 }
