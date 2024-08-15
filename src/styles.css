@@ -150,12 +150,15 @@ body-info {
   background-color: var(--bleu-damotic);
   color: #fff;
   padding: 20px;
-  margin: 0px;
+  margin: 5px;
+
+
 }
 
 .container-header {
   max-width: 960px;
   margin: 0 auto;
+  align-items: center;
 }
 
 h1 {
@@ -177,6 +180,12 @@ h1 {
   margin-right: 10px;
   border-radius: 4px;
   transition: background-color 0.3s ease;
+
+  /* Centrage du texte */
+  display: inline-flex; /* Utilise flex pour un centrage vertical et horizontal */
+  justify-content: center; /* Centre le contenu horizontalement */
+  align-items: center; /* Centre le contenu verticalement */
+  text-align: center; /* Assure que le texte est centré dans la "case" */
 }
 
 .navLinks a:hover {
@@ -393,7 +402,6 @@ main{
   background-color: #efefef;
   border: 1px solid black;
 }
-
 .result-row div {
   text-align: center;
 }
