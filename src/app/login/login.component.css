@@ -20,7 +20,6 @@ label {
 }
 
 input {
-  width: 100%;
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -66,3 +65,15 @@ a.btn {
   background-color: var(--rouge-damotic);
 }
 
+.displayerow{
+  display: flex;
+  flex-direction: row;
+}
+.displayecolumn{
+  display: flex;
+  flex-direction: column;
+}
+.centered{
+  align-items: center;
+  justify-content: center;
+}
