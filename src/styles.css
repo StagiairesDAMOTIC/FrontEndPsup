@@ -687,3 +687,19 @@ ul {
   flex-direction: row;
 }
 
+#table.liste_res_table {
+  border: black solid 2px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.liste_res_td1, .liste_res_td2, .liste_res_td3, .liste_res_td4, .liste_res_td5{
+  text-align: center;
+  line-height: 2;
+  padding-left:10px;
+}
+
+.liste_res_head_tr1, .liste_res_head_tr2, .liste_res_head_tr3, .liste_res_head_tr4, .liste_res_head_tr5 {
+  border: solid black 1px;
+}
+
