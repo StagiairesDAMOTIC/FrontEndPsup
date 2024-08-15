@@ -659,23 +659,36 @@ ul {
   font-size: 20px;
   font-weight: 700;
 }
+.test-ecriture{
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
 
-
-.favorites-section,
-.establishments-section {
+.favorites-section{
   flex: auto;
   background: var(--bleu-damotic);
   padding: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
+  width: 80%;
 }
 
-.favorites-content {
+.favorites-form-content {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  align-self: flex-start;
+  width : 45%;
+  margin-left:auto;
+
+}
+.favorites-estab-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width :45%;
+  margin-left:auto;
 }
 
 .favorite-item {
@@ -684,6 +697,6 @@ ul {
   align-items: center;
   background: #d9d9d9;
   padding: 10px;
-  flex-direction: row;
+  flex-direction: column;
 }
 
