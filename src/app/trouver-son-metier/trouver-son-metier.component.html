@@ -3,7 +3,154 @@
   <main>
   <div class="sidebar-left">
       <!--  mettre les 2 onglets recherche et secteurs d'activité -->
-      filtres etc
+    <div id="levelListeCheckbox">
+      <ul>
+        <li>
+          <input type="checkbox" id="level1" class="toggle"/>
+          <label for="level1">
+            <span class="niveau_1"><b>Filtrer les établissements</b></span>
+          </label>
+          <ul class="nested">
+            <li>
+              <input type="checkbox" id="level1.1" class="toggle"/>
+              <label for="level1.1">
+                <span class="niveau_2">Type d'établissement</span>
+              </label>
+              <ul class="nested">
+                <li class="leaf">
+                  <input type="checkbox" id="item1"/>
+                  <label for="item1">
+                    <span class="feuille">Établissement public</span>
+                  </label>
+                </li>
+                <li class="leaf">
+                  <input type="checkbox" id="item2"/>
+                  <label for="item2">
+                    <span class="feuille">Établissement privé</span>
+                  </label>
+                </li>
+                <li class="leaf">
+                  <input type="checkbox" id="item3"/>
+                  <label for="item3">
+                    <span class="feuille">Privé sous contrat</span>
+                  </label>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <input type="checkbox" id="level1.2" class="toggle"/>
+              <label for="level1.2">
+                <span class="niveau_2">Type de formation</span>
+              </label>
+              <ul class="nested">
+                <li class="leaf">
+                  <input type="checkbox" id="item4"/>
+                  <label for="item4">
+                    <span class="feuille">BUT</span>
+                  </label>
+                </li>
+                <li class="leaf">
+                  <input type="checkbox" id="item5"/>
+                  <label for="item5">
+                    <span class="feuille">License</span>
+                  </label>
+                </li>
+                <li class="leaf">
+                  <input type="checkbox" id="item6"/>
+                  <label for="item6">
+                    <span class="feuille">BTS</span>
+                  </label>
+                </li>
+                <li class="leaf">
+                  <input type="checkbox" id="item7"/>
+                  <label for="item7">
+                    <span class="feuille">DUT</span>
+                  </label>
+                </li>
+                <li class="leaf">
+                  <input type="checkbox" id="item8"/>
+                  <label for="item8">
+                    <span class="feuille">CPGE</span>
+                  </label>
+                </li>
+                <li class="leaf">
+                  <input type="checkbox" id="item9"/>
+                  <label for="item9">
+                    <span class="feuille">Classe préparatoire</span>
+                  </label>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <input type="checkbox" id="level1.3" class="toggle"/>
+              <label for="level1.3">
+                <span class="niveau_2">Apprentissage</span>
+              </label>
+              <ul class="nested">
+                <li class="leaf">
+                  <input type="checkbox" id="item10"/>
+                  <label for="item10">
+                    <span class="feuille">Oui</span>
+                  </label>
+                </li>
+                <li class="leaf">
+                  <input type="checkbox" id="item11"/>
+                  <label for="item11">
+                    <span class="feuille">Non</span>
+                  </label>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <input type="checkbox" id="level1.4" class="toggle"/>
+              <label for="level1.4">
+                <span class="niveau_2">Type de BAC</span>
+              </label>
+              <ul class="nested">
+                <li class="leaf">
+                  <input type="checkbox" id="item12"/>
+                  <label for="item12">
+                    <span class="feuille">Scientifique</span>
+                  </label>
+                </li>
+                <li class="leaf">
+                  <input type="checkbox" id="item13"/>
+                  <label for="item13">
+                    <span class="feuille">Littéraire</span>
+                  </label>
+                </li>
+                <li class="leaf">
+                  <input type="checkbox" id="item14"/>
+                  <label for="item14">
+                    <span class="feuille">Économique et social</span>
+                  </label>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <input type="checkbox" id="level1.5" class="toggle"/>
+              <label for="level1.5">
+                <span class="niveau_2">Autres</span>
+              </label>
+              <ul class="nested">
+                <li class="leaf">
+                  <input type="checkbox" id="item15"/>
+                  <label for="item15">
+                    <span class="feuille">Épreuves de sélection particulières</span>
+                  </label>
+                </li>
+                <li class="leaf">
+                  <input type="checkbox" id="item16"/>
+                  <label for="item16">
+                    <span class="feuille">Aménagement pour personne handicapé</span>
+                  </label>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
   <div class="results-section">
     <div class="content">
