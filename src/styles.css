@@ -45,6 +45,7 @@ body-info {
   color : var(--rouge-damotic);
   line-height: 70px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .profile-section-info {
@@ -709,6 +710,7 @@ ul {
 }
 
 #table.liste_res_table {
+  background-color: white ;
   border: black solid 2px;
   margin: 10px;
   font-weight: bold;
@@ -724,3 +726,12 @@ ul {
   border: solid black 1px;
 }
 
+table {
+  color: black;
+  line-height: 1;
+  font-size: 11pt;
+}
+
+p {
+  text-align: justify;
+}
