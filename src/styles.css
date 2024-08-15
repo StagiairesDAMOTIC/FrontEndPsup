@@ -240,6 +240,9 @@ main{
   display: flex;
   justify-content: center;
   background: #b9b9b9;
+  width:96%;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 /* Boutons des onglets */
