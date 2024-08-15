@@ -716,3 +716,12 @@ ul {
   border: solid black 1px;
 }
 
+table {
+  color: black;
+  line-height: 1;
+  font-size: 11pt;
+}
+
+p {
+  text-align: justify;
+}
