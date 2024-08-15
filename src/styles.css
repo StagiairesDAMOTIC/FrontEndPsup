@@ -722,7 +722,7 @@ ul {
   padding-left:10px;
 }
 
-.liste_res_head_tr1, .liste_res_head_tr2, .liste_res_head_tr3, .liste_res_head_tr4, .liste_res_head_tr5 {
+.liste_res_head_tr2, .liste_res_head_tr3, .liste_res_head_tr4, .liste_res_head_tr5,.liste_res_head_tr6  {
   border: solid black 1px;
 }
 

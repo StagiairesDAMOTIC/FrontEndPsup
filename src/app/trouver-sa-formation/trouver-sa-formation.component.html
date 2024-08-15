@@ -181,77 +181,190 @@
         <div class="content">
           <table id="table" class="liste_res_table">
             <thead>
-              <tr class="liste_res_head_tr">
-                <th class="liste_res_head_tr1">Nom</th>
-                <th class="liste_res_head_tr2">
-                  Moyenne admis<br />&#9650;&#9660;
-                </th>
-                <th class="liste_res_head_tr3">
-                  <b>Mon taux d'accès</b><br />&#9650;&#9660;
-                </th>
-                <th class="liste_res_head_tr4">
-                  Chance admission<br />&#9650;&#9660;
-                </th>
-              </tr>
+
+            <tr class="liste_res_head_tr">
+              <th class="liste_res_head_tr1"></th>
+              <th class="liste_res_head_tr2">Nom</th>
+              <th class="liste_res_head_tr3">Mentions/Spécialités</th>
+              <th class="liste_res_head_tr4">Moyenne admis<br>&#9650;&#9660;</th>
+              <th class="liste_res_head_tr5"><b>Mon taux d'accès</b><br>&#9650;&#9660;</th>
+              <th class="liste_res_head_tr6">Chance admission<br>&#9650;&#9660;</th>
+            </tr>
+
             </thead>
             <tbody>
-              <tr class="liste_res_tr">
-                <a [routerLink]="['/encadre-de-presentation']"
-                  ><td class="liste_res_td1">
-                    I.U.T de Saint Dié - Université de Lorraine
-                    (Saint-Dié-des-Vosges - 88)<br /><b
-                      >BUT - Génie électrique et informatique industrielle
-                      (Statut d'apprenti possible sur tout ou partie des années,
-                      au-delà de la première)</b
-                    >
-                  </td></a
-                >
-                <td class="liste_res_td2">14/20</td>
-                <td class="liste_res_td3">85%</td>
-                <td class="liste_res_td4">
-                  <div class="progress-container">
-                    <div class="progress-bar dark-green"></div>
-                  </div>
-                </td>
-                <!-- progress bar -->
-              </tr>
 
-              <tr class="liste_res_tr">
-                <td class="liste_res_td1">
-                  I.U.T de Sénart/Fontainebleau - Site Sénart - UPEC(Lieusaint -
-                  77)<br /><b
-                    >BUT - Génie électrique et informatique industrielle (Statut
-                    d'apprenti possible sur tout ou partie des années, au-delà
-                    de la première)</b
-                  >
-                </td>
-                <td class="liste_res_td2">14/20</td>
-                <td class="liste_res_td3">85%</td>
-                <td class="liste_res_td4">
-                  <div class="progress-container">
-                    <div class="progress-bar dark-green"></div>
-                  </div>
-                </td>
-                <!-- progress bar -->
-              </tr>
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier, Antenne de Mende (48)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Pluridisciplinarité et métiers de l’enseignement, de l’éducation et de la formation</td>
+              <td class="liste_res_td4">12/20</td>
+              <td class="liste_res_td5">85%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar dark-green"></div></div></td>   <!-- progress bar -->
+            </tr>
 
-              <tr class="liste_res_tr">
-                <td class="liste_res_td1">
-                  I.U.T de Troyes (10)<br /><b
-                    >BUT - Génie électrique et informatique industrielle (Statut
-                    d'apprenti possible sur tout ou partie des années, au-delà
-                    de la première)</b
-                  >
-                </td>
-                <td class="liste_res_td2">14/20</td>
-                <td class="liste_res_td3">85%</td>
-                <td class="liste_res_td4">
-                  <div class="progress-container">
-                    <div class="progress-bar dark-green"></div>
-                  </div>
-                </td>
-                <!-- progress bar -->
-              </tr>
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier, Antenne de Perpignan (66)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Pluridisciplinarité et métiers de l’enseignement, de l’éducation et de la formation</td>
+              <td class="liste_res_td4">13/20</td>
+              <td class="liste_res_td5">82%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar dark-green"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">INSSET de Saint-Quentin (02)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Licence Sciences et Technologies (Portail Sciences)</td>
+              <td class="liste_res_td4">13,5/20</td>
+              <td class="liste_res_td5">79%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar light-green"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université Côte d'Azur / lycée du Parc Impérial Nice (06)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">14/20</td>
+              <td class="liste_res_td5">68%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar light-green"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Versailles - Saint Quentin en Yvelines / lycée Jules Ferry Versailles (78)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">14,5/20</td>
+              <td class="liste_res_td5">65%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar light-green"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Corte (20)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies</td>
+              <td class="liste_res_td4">14,8/20</td>
+              <td class="liste_res_td5">63%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar light-green"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier, Antenne de Nîmes (30)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Pluridisciplinarité et métiers de l’enseignement, de l’éducation et de la formation</td>
+              <td class="liste_res_td4">15/20</td>
+              <td class="liste_res_td5">52%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar yellow"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Limoges / Lycée Turgot Limoges (87)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">15,7/20</td>
+              <td class="liste_res_td5">48%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar yellow"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Versailles - Saint Quentin en Yvelines / lycée Jules Ferry Versailles (78)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">16,2/20</td>
+              <td class="liste_res_td5">42%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar yellow"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université Côte d'Azur / lycée du Parc Impérial Nice (06)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">16,8/20</td>
+              <td class="liste_res_td5">38%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier (34)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Pluridisciplinarité et métiers de l’enseignement, de l’éducation et de la formation</td>
+              <td class="liste_res_td4">17/20</td>
+              <td class="liste_res_td5">33%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Limoges / Lycée Turgot Limoges (87)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">17,2/20</td>
+              <td class="liste_res_td5">30%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Mayotte (Dembeni - 976)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">17,7/20</td>
+              <td class="liste_res_td5">27%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier / lycée Jean Monnet Montpellier (34)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">17,8/20</td>
+              <td class="liste_res_td5">26%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Reims Champagne-Ardenne (51)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies</td>
+              <td class="liste_res_td4">18/20</td>
+              <td class="liste_res_td5">22%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier / lycée Jean Monnet Montpellier (34)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">18,2/20</td>
+              <td class="liste_res_td5">19%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar red"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Facultés libres de l'ouest - UCO - Bretagne Nord (Guingamp - 22)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies</td>
+              <td class="liste_res_td4">18,4/20</td>
+              <td class="liste_res_td5">16%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar red"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">INSSET de Saint-Quentin (02)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Licence Sciences et Technologies (Portail Sciences)</td>
+              <td class="liste_res_td4">18,5/20</td>
+              <td class="liste_res_td5">12%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar red"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier / lycée Jean Monnet Montpellier (34)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">18,6/20</td>
+              <td class="liste_res_td5">9%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar red"></div></div></td>   <!-- progress bar -->
+            </tr>
+
             </tbody>
           </table>
         </div>
@@ -422,77 +535,190 @@
         <div class="content">
           <table id="table" class="liste_res_table">
             <thead>
-              <tr class="liste_res_head_tr">
-                <th class="liste_res_head_tr1">Nom</th>
-                <th class="liste_res_head_tr2">
-                  Moyenne admis<br />&#9650;&#9660;
-                </th>
-                <th class="liste_res_head_tr3">
-                  <b>Mon taux d'accès</b><br />&#9650;&#9660;
-                </th>
-                <th class="liste_res_head_tr4">
-                  Chance admission<br />&#9650;&#9660;
-                </th>
-              </tr>
+
+            <tr class="liste_res_head_tr">
+              <th class="liste_res_head_tr1"></th>
+              <th class="liste_res_head_tr2">Nom</th>
+              <th class="liste_res_head_tr3">Mentions/Spécialités</th>
+              <th class="liste_res_head_tr4">Moyenne admis<br>&#9650;&#9660;</th>
+              <th class="liste_res_head_tr5"><b>Mon taux d'accès</b><br>&#9650;&#9660;</th>
+              <th class="liste_res_head_tr6">Chance admission<br>&#9650;&#9660;</th>
+            </tr>
+
             </thead>
             <tbody>
-              <tr class="liste_res_tr">
-                <a [routerLink]="['/encadre-de-presentation']"
-                  ><td class="liste_res_td1">
-                    I.U.T de Saint Dié - Université de Lorraine
-                    (Saint-Dié-des-Vosges - 88)<br /><b
-                      >BUT - Génie électrique et informatique industrielle
-                      (Statut d'apprenti possible sur tout ou partie des années,
-                      au-delà de la première)</b
-                    >
-                  </td></a
-                >
-                <td class="liste_res_td2">14/20</td>
-                <td class="liste_res_td3">85%</td>
-                <td class="liste_res_td4">
-                  <div class="progress-container">
-                    <div class="progress-bar dark-green"></div>
-                  </div>
-                </td>
-                <!-- progress bar -->
-              </tr>
 
-              <tr class="liste_res_tr">
-                <td class="liste_res_td1">
-                  I.U.T de Sénart/Fontainebleau - Site Sénart - UPEC(Lieusaint -
-                  77)<br /><b
-                    >BUT - Génie électrique et informatique industrielle (Statut
-                    d'apprenti possible sur tout ou partie des années, au-delà
-                    de la première)</b
-                  >
-                </td>
-                <td class="liste_res_td2">14/20</td>
-                <td class="liste_res_td3">85%</td>
-                <td class="liste_res_td4">
-                  <div class="progress-container">
-                    <div class="progress-bar dark-green"></div>
-                  </div>
-                </td>
-                <!-- progress bar -->
-              </tr>
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier, Antenne de Mende (48)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Pluridisciplinarité et métiers de l’enseignement, de l’éducation et de la formation</td>
+              <td class="liste_res_td4">12/20</td>
+              <td class="liste_res_td5">85%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar dark-green"></div></div></td>   <!-- progress bar -->
+            </tr>
 
-              <tr class="liste_res_tr">
-                <td class="liste_res_td1">
-                  I.U.T de Troyes (10)<br /><b
-                    >BUT - Génie électrique et informatique industrielle (Statut
-                    d'apprenti possible sur tout ou partie des années, au-delà
-                    de la première)</b
-                  >
-                </td>
-                <td class="liste_res_td2">14/20</td>
-                <td class="liste_res_td3">85%</td>
-                <td class="liste_res_td4">
-                  <div class="progress-container">
-                    <div class="progress-bar dark-green"></div>
-                  </div>
-                </td>
-                <!-- progress bar -->
-              </tr>
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier, Antenne de Perpignan (66)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Pluridisciplinarité et métiers de l’enseignement, de l’éducation et de la formation</td>
+              <td class="liste_res_td4">13/20</td>
+              <td class="liste_res_td5">82%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar dark-green"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">INSSET de Saint-Quentin (02)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Licence Sciences et Technologies (Portail Sciences)</td>
+              <td class="liste_res_td4">13,5/20</td>
+              <td class="liste_res_td5">79%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar light-green"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université Côte d'Azur / lycée du Parc Impérial Nice (06)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">14/20</td>
+              <td class="liste_res_td5">68%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar light-green"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Versailles - Saint Quentin en Yvelines / lycée Jules Ferry Versailles (78)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">14,5/20</td>
+              <td class="liste_res_td5">65%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar light-green"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Corte (20)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies</td>
+              <td class="liste_res_td4">14,8/20</td>
+              <td class="liste_res_td5">63%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar light-green"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier, Antenne de Nîmes (30)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Pluridisciplinarité et métiers de l’enseignement, de l’éducation et de la formation</td>
+              <td class="liste_res_td4">15/20</td>
+              <td class="liste_res_td5">52%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar yellow"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Limoges / Lycée Turgot Limoges (87)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">15,7/20</td>
+              <td class="liste_res_td5">48%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar yellow"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Versailles - Saint Quentin en Yvelines / lycée Jules Ferry Versailles (78)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">16,2/20</td>
+              <td class="liste_res_td5">42%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar yellow"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université Côte d'Azur / lycée du Parc Impérial Nice (06)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">16,8/20</td>
+              <td class="liste_res_td5">38%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier (34)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Pluridisciplinarité et métiers de l’enseignement, de l’éducation et de la formation</td>
+              <td class="liste_res_td4">17/20</td>
+              <td class="liste_res_td5">33%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Limoges / Lycée Turgot Limoges (87)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">17,2/20</td>
+              <td class="liste_res_td5">30%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Mayotte (Dembeni - 976)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">17,7/20</td>
+              <td class="liste_res_td5">27%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier / lycée Jean Monnet Montpellier (34)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">17,8/20</td>
+              <td class="liste_res_td5">26%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Reims Champagne-Ardenne (51)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies</td>
+              <td class="liste_res_td4">18/20</td>
+              <td class="liste_res_td5">22%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar orange"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier / lycée Jean Monnet Montpellier (34)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">18,2/20</td>
+              <td class="liste_res_td5">19%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar red"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Facultés libres de l'ouest - UCO - Bretagne Nord (Guingamp - 22)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies</td>
+              <td class="liste_res_td4">18,4/20</td>
+              <td class="liste_res_td5">16%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar red"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">INSSET de Saint-Quentin (02)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Licence Sciences et Technologies (Portail Sciences)</td>
+              <td class="liste_res_td4">18,5/20</td>
+              <td class="liste_res_td5">12%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar red"></div></div></td>   <!-- progress bar -->
+            </tr>
+
+            <tr class="liste_res_tr">
+              <td class="liste_res_td1"><div class="favoris">☆</div></td>   <!-- favoris -->
+              <td class="liste_res_td2">Université de Montpellier / lycée Jean Monnet Montpellier (34)</td>
+              <td class="liste_res_td3">Licence - Sciences et technologies - Parcours Préparatoire au Professorat des Ecoles (PPPE)</td>
+              <td class="liste_res_td4">18,6/20</td>
+              <td class="liste_res_td5">9%</td>
+              <td class="liste_res_td6"><div class="progress-container"><div class="progress-bar red"></div></div></td>   <!-- progress bar -->
+            </tr>
+
             </tbody>
           </table>
         </div>
