@@ -300,7 +300,6 @@ main{
   padding: 20px;
   color: white;
   font-family: Inter, sans-serif;
-  align-self: flex-end; /* Aligne la barre latérale à droite dans le conteneur */
   box-sizing: border-box;
   height: 100vh; /* Prend toute la hauteur de l'écran */
   position: relative; /* Reste dans le flux normal du document */
