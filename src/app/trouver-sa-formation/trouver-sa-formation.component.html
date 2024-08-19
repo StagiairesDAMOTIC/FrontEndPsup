@@ -1,24 +1,42 @@
 <div class="title">Trouver sa formation</div>
 <div class="container">
   <div class="app-info-eleve"></div>
-  <div class="search-section">
+  <div [ngSwitch]="activeTab">
+  <div class="search-section" *ngSwitchCase="0">
     <div class="recherche-item">
-      <div>Nom de formation, d’établissement...</div>
+      <div class="margin-bottom">Nom de formation, d’établissement...</div>
       <div class="displayerow">
             <input type="text" value="IUT saint dié"  />
       </div>
     </div>
     <div class="recherche-item">
-      <div>Zone géographique</div>
+      <div class="margin-bottom">Zone géographique</div>
       <div class="displayerow">
         <div>
             <input type="text" value=""  />
         </div>
-        <div class="search-button">Valider</div>
+        <button class="search-button">Valider</button>
       </div>
     </div>
   </div>
-
+  <div class="search-section"*ngSwitchCase="1">
+    <div class="recherche-item">
+      <div class="margin-bottom">Nom de métier</div>
+      <div class="displayerow">
+        <input type="text" value="Informaticien industriel"  />
+      </div>
+    </div>
+    <div class="recherche-item">
+      <div class="margin-bottom">Secteurs d'activité</div>
+      <div class="displayerow">
+        <div>
+          <input type="text" value="Electronique"  />
+        </div>
+        <button class="search-button">Valider</button>
+      </div>
+    </div>
+  </div>
+</div>
   <div class="barre-onglet">
     <button
       class="onglet"
