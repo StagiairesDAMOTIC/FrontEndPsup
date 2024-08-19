@@ -744,3 +744,6 @@ li.leaf {
   display: flex;
   flex-direction: row;
 }
+.recherche-item{
+  margin:0 10px;
+}
