@@ -213,6 +213,20 @@ footer {
   align-items: center;
   margin: 20px auto; /* Cette ligne permet de centrer l'élément horizontalement */
 }
+.formation-title {
+  width: 600px;
+  height: 100px;
+  background: var(--bleu-damotic);
+  color: white;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Cette ligne permet de centrer l'élément horizontalement */
+  padding:10px;
+}
 
 .container {
   width: 100%;
